@@ -1,0 +1,119 @@
+/* Для экранов с шириной до 1140 */
+@media(max-width: 1140px){
+    .card{
+        width: calc(50% - 15px);
+    }
+
+    footer{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .footer-row{
+        flex-direction: column-reverse;
+        align-items:center;
+        
+        text-align: center;
+    }
+
+    .footer-icons-row>a{
+        margin-bottom: 40px;
+    }
+
+    
+
+}
+
+/*до 760px */
+@media(max-width: 760px){
+    .header-title{
+        font-size: 32px;
+    }
+
+    .header-subtitle{
+        font-size: 14px;
+    }
+
+    .portfilio{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .portfolio-header{
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+    .card{
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .portfolio-cards-wrapper{
+        justify-self: center;
+    }
+
+
+    .card-link{
+        padding: 15px;
+    }
+
+    .card:nth-last-child(2){
+        margin-bottom: 30px;
+    }
+
+    .card-img{
+        margin-bottom: 10px;
+    }
+
+    .card-title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+
+
+    .footer-copyright-name{
+        font-size: 18px;
+       margin-top: 30px;
+    }
+
+    .footer-copyright p{
+        font-size: 14px;
+    }
+
+    .footer-icons p{
+        font-size: 14px;
+        margin-top: 50px;
+    }
+
+    .footer-contacts p{
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .project{
+        padding: 40px 0 60px;
+    }
+
+    .project-header{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .project-img{
+        margin-bottom: 20px;
+    }
+
+    .project-description{
+        margin-bottom: 50px;
+    }
+
+    .project-button-back{
+        padding: 15px;
+    }
+}
