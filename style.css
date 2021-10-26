@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;/*плавная прокрутка*/
+}
+
 body{
     margin:0;
     font-family: 'Montserrat', sans-serif;/*шрифт на странице*/
+
 }
 
 img{
@@ -16,8 +21,8 @@ header{
     width: 100%;
     height: 100vh;/*условные единицы viewport*/
 
-    background-color:#556983;
-    background-image: url("./img/header/header-bg.jpg");
+    /* background-color:#556983;
+    background-image: url("./img/header/header-bg.jpg"); */
     background-image:cover ;
     background-position: center;
 

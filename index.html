@@ -14,16 +14,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header >
+    <header id="header">
         <h1 class="header-title">Никита Жизневский</h1>
         <p class="header-subtitle">студент, начинающий веб-разработчик, создание сайтов</p>
-        <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
             <img src="./img/header/chevron-down.svg" alt="arrow">
-        </div>
+        </a>
     </header>
 
     <main >
-        <div class="portfolio ">
+        <div class="portfolio " id="portfolio">
             <div class="container">
                 <h2 class="portfolio-header">Портфолио</h2>
 
@@ -122,7 +122,13 @@
         </div>
     </footer>
 
+    <!-- Библ и плаг -->
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
 
+
+    <!-- собственные скрипты -->
+    <script src="main.js"></script>
 
 </body>
 </html>
